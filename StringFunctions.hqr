@@ -1,0 +1,10 @@
+use emp;
+
+select ascii('ABC');
+
+select character_length('ABC');
+
+select concat('ABC','DEF');
+
+select concat_ws('|', '1','2','3');
+
