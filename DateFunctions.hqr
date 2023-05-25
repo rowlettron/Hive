@@ -1,0 +1,13 @@
+use emp;
+
+select from_unixtime(1605108612);
+
+select from_unixtime(1605108612, 'MM-dd-yyyy HH:mm:ss');
+
+select unix_timestamp('2020-11-11 15:30:12.084');
+
+select unix_timestamp('11-11-2020 15:30:12.084', 'MM-dd-yyyy HH:mm:ss');
+
+select unix_timestamp('11-11-2020 15:30:12.084');
+
+
